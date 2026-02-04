@@ -13,10 +13,10 @@
     @reference '../style.css';
 
     nav {
-        @apply flex absolute top-0 left-0 p-4 justify-between items-center w-full
-            text-emerald-900 text-2xl font-bold bg-emerald-200;
+        @apply flex sticky top-0 left-0 p-4 justify-between items-center w-full
+            text-emerald-100 text-2xl font-bold bg-emerald-950;
     }
     nav #links {
-        @apply flex gap-4
+        @apply flex gap-8
     }
 </style>
